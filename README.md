@@ -1,5 +1,6 @@
 ## Laravel Devcontainer Example
 
-- composer install
-- copy .env.example and rename .env
-- php artisan key:generate
+- `CTRL+SHIFT+P` e seleziona `Dev Containers: Rebuild and Reopen in Container`
+- `CTRL+ò` per aprire un terminale e lancia `composer install`
+- copia il file `.env.example` in `.env`
+- nel terminale lancia `php artisan key:generate`
