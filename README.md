@@ -4,3 +4,9 @@
 - `CTRL+ò` per aprire un terminale e lancia `composer install`
 - copia il file `.env.example` in `.env`
 - nel terminale lancia `php artisan key:generate`
+
+### Auth - Breeze (Vue with Inertia)
+
+- `composer require laravel/breeze --dev`
+- `php artisan breeze:install`
+- `php artisan migrate`
