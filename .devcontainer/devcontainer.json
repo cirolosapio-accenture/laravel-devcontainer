@@ -1,0 +1,37 @@
+{
+    "dockerComposeFile": "compose.yml",
+    "workspaceFolder": "/var/www/html",
+    "service": "php",
+    "runServices": [
+        "nginx"
+    ],
+    "features": {
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-starship:0": {},
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh:0": {},
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-openssh:0": {},
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-bottom:0": {},
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-node:0": {},
+        "ghcr.io/cirolosapio/devcontainers-features/alpine-docker:0": {
+            "hostDockerGid": 999
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bmewburn.vscode-intelephense-client",
+                "eamodio.gitlens",
+                "junstyle.php-cs-fixer",
+                "mehedidracula.php-namespace-resolver",
+                "mikestead.dotenv",
+                "mechatroner.rainbow-csv",
+                "neilbrayfield.php-docblocker",
+                "oderwat.indent-rainbow",
+                "usernamehw.errorlens",
+                "xdebug.php-debug",
+                "ChakrounAnas.turbo-console-log",
+                "GitHub.vscode-pull-request-github",
+                "Cardinal90.multi-cursor-case-preserve"
+            ]
+        }
+    }
+}
