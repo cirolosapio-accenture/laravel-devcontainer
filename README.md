@@ -1,12 +1,14 @@
 ## Laravel Devcontainer Example
 
-- `CTRL+SHIFT+P` e seleziona `Dev Containers: Rebuild and Reopen in Container`
-- `CTRL+ò` per aprire un terminale e lancia `composer install`
-- copia il file `.env.example` in `.env`
-- nel terminale lancia `php artisan key:generate`
+- `CTRL+SHIFT+P` seleziona `Dev Containers: Rebuild and Reopen in Container`
+- `CTRL+ò` per aprire un terminale
+  - installiamo le dipendenze `composer install`
+  - copia il file env con `cp .env.example .env`
+  - generiamo la chiave dell'applicazione `php artisan key:generate`
 
 ### Auth - Breeze (Vue with Inertia)
 
-- `composer require laravel/breeze --dev`
-- `php artisan breeze:install`
-- `php artisan migrate`
+- `CTRL+ò` per aprire un terminale
+  - aggiungiamo la libreria laravel/breeze `composer require laravel/breeze --dev`
+  - la configuriamo con `php artisan breeze:install`
+  - aggiorniamo il db `php artisan migrate`
