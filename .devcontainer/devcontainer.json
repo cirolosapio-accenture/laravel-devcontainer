@@ -5,6 +5,15 @@
     "runServices": [
         "nginx"
     ],
+    "portsAttributes": {
+        "8080": {
+            "label": "Application",
+            "onAutoForward": "openBrowserOnce"
+        }
+    },
+    "forwardPorts": [
+        8080
+    ],
     "features": {
         "ghcr.io/cirolosapio/devcontainers-features/alpine-starship:0": {},
         "ghcr.io/cirolosapio/devcontainers-features/alpine-ohmyzsh:0": {},
