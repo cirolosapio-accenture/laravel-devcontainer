@@ -6,13 +6,13 @@
         "nginx"
     ],
     "portsAttributes": {
-        "8080": {
+        "80": {
             "label": "Application",
             "onAutoForward": "openBrowserOnce"
         }
     },
     "forwardPorts": [
-        8080
+        80
     ],
     "features": {
         "ghcr.io/cirolosapio/devcontainers-features/alpine-starship:0": {},
