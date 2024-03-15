@@ -21,7 +21,7 @@
         "ghcr.io/cirolosapio/devcontainers-features/alpine-bottom:0": {},
         "ghcr.io/cirolosapio/devcontainers-features/alpine-node:0": {},
         "ghcr.io/cirolosapio/devcontainers-features/alpine-docker:0": {
-            "hostDockerGid": 999
+            "hostDockerGid": 800
         }
     },
     "customizations": {
